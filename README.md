@@ -5,8 +5,8 @@ here is the boilerplate/template for creating new service if you are going to us
 
 > ###### Note
 > Before you start to develop the Service, please clone this repo into you local machine:
->   1. The API Gateway/Auth Service App, you can find the repo [here](https://www.google.com).
->   2. The Service Discovery App, you can find the repo [here]().
+>   1. The API Gateway/Auth Service App, you can find the repo [here](https://github.com/chipper-dev/tk-be-auth-proxy-service).
+>   2. The Service Discovery App, you can find the repo [here](https://github.com/chipper-dev/tk-be-discovery-service).
 >
 > And run them on your local machine. So you can develop this new service without problem.
 > 
