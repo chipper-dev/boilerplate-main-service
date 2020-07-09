@@ -22,7 +22,7 @@ here is the boilerplate/template for creating new service if you are going to us
 | artifact & project name      | {service name}-service                  |profile-service|
 | package                      | com.mitrais.chipper.tk.be.{service name}|com.mitrais.chipper.tk.be.profileservice|
 | image & container            | tk-be-{service name}-service            |tk-be-profile-service|
-| database                     | tk-db-{service name}-service            |tk-db-profile-service|
+| database                     | tk_db_{service name}_service            |tk_db_profile_service|
 
 ##### Dependencies
 Minimum requirements of the Dependencies that are needed on each services
