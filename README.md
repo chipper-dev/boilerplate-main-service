@@ -3,6 +3,14 @@
 Since the backend app of TemanKondangan is going to be migrated to Microservice from Monolithic Architecture,  
 here is the boilerplate/template for creating new service if you are going to use the **Spring Boot** to create a new Service.
 
+##### STACK
+* Java 8
+* Spring Boot
+* Maven
+* Postgresql
+* Eureka Server as Service Discovery
+* Zuul as API Gateway 
+
 > ###### Note
 > Before you start to develop the Service, please clone this repo into you local machine:
 >   1. The API Gateway/Auth Service App, you can find the repo [here](https://github.com/chipper-dev/tk-be-auth-proxy-service).
@@ -33,6 +41,11 @@ Minimum requirements of the Dependencies that are needed on each services
 * Eureka Client
 * Hystrix
 * Hystrix Dashborad
+* Actuator
+* Feign Client (Open Client if you search at sprint initializer)
+* Swagger
+* Jjwt
+* Json-smart (I don't know why we need it, since the JSONObject in CustomResponseEntityExceptionHandler of existing application don't need it.)
 
 Optional:
 * Lombok
