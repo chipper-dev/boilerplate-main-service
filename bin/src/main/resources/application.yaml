@@ -1,0 +1,31 @@
+server:
+  port: 9091 # If you create new Service Please increase the number on the las digit, such as 9092, 9093 etc
+
+spring:
+  application:
+    name: main-service # Please rename it based on the name of ur service that u'll make it
+#  cloud:
+#    config:
+#      uri: http://${CONFIG_SERVICE_HOST}:8888
+#      name: eureka-client, service-routes
+
+management:
+  security:
+    enabled: false
+
+eureka:
+  instance:
+    leaseRenewalIntervalInSeconds: 5
+    leaseExpirationDurationInSeconds: 2
+    prefer-ip-address: true
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_SERVER_URL}/eureka/
+    healthcheck:
+      enabled: true
+    lease:
+      duration: 5
+
+logging:
+  level:
+    com.mitrais.chipper.temankondangan.backend.mainservice: DEBUG
